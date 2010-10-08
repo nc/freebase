@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nc-freebase}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Namit Chadha"]
@@ -27,11 +27,13 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
-    "nc-freebase.gemspec",
+    "freebase.gemspec",
+    "freeman.gemspec",
     "lib/freebase.rb",
     "lib/freebase/base.rb",
     "lib/freebase/response.rb",
     "lib/freebase/result.rb",
+    "nc-freebase.gemspec",
     "spec/freebase_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -50,17 +52,17 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
-      s.add_runtime_dependency(%q<yajl-ruby>, [">= 0"])
-      s.add_development_dependency(%q<rspec>, [">= 0"])
+      s.add_runtime_dependency(%q<yajl-ruby>, ["= 0.7.8"])
+      s.add_development_dependency(%q<rspec>, ["= 2.0.0.rc"])
     else
       s.add_dependency(%q<httparty>, [">= 0"])
-      s.add_dependency(%q<yajl-ruby>, [">= 0"])
-      s.add_dependency(%q<rspec>, [">= 0"])
+      s.add_dependency(%q<yajl-ruby>, ["= 0.7.8"])
+      s.add_dependency(%q<rspec>, ["= 2.0.0.rc"])
     end
   else
     s.add_dependency(%q<httparty>, [">= 0"])
-    s.add_dependency(%q<yajl-ruby>, [">= 0"])
-    s.add_dependency(%q<rspec>, [">= 0"])
+    s.add_dependency(%q<yajl-ruby>, ["= 0.7.8"])
+    s.add_dependency(%q<rspec>, ["= 2.0.0.rc"])
   end
 end
 
