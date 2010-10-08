@@ -5,22 +5,22 @@ GEM
     diff-lcs (1.1.2)
     httparty (0.6.1)
       crack (= 0.1.8)
-    rspec (2.0.0.beta.22)
-      rspec-core (= 2.0.0.beta.22)
-      rspec-expectations (= 2.0.0.beta.22)
-      rspec-mocks (= 2.0.0.beta.22)
-    rspec-core (2.0.0.beta.22)
-    rspec-expectations (2.0.0.beta.22)
+    rspec (2.0.0.rc)
+      rspec-core (= 2.0.0.rc)
+      rspec-expectations (= 2.0.0.rc)
+      rspec-mocks (= 2.0.0.rc)
+    rspec-core (2.0.0.rc)
+    rspec-expectations (2.0.0.rc)
       diff-lcs (>= 1.1.2)
-    rspec-mocks (2.0.0.beta.22)
-      rspec-core (= 2.0.0.beta.22)
-      rspec-expectations (= 2.0.0.beta.22)
-    yajl-ruby (0.7.7)
+    rspec-mocks (2.0.0.rc)
+      rspec-core (= 2.0.0.rc)
+      rspec-expectations (= 2.0.0.rc)
+    yajl-ruby (0.7.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   httparty
-  rspec
-  yajl-ruby
+  rspec (= 2.0.0.rc)
+  yajl-ruby (= 0.7.8)

@@ -1,7 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 
-Bundler.require(:default)
+Bundler.send(:require, :default)
 
 require "cgi"
 require "ostruct"
