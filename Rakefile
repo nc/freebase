@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "freeman"
+    gem.name = "freebase"
     gem.summary = %Q{quick freebase queries}
     gem.description = %Q{}
     gem.email = "nc@appspark.us"
