@@ -5,12 +5,15 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "freeman"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{quick freebase queries}
+    gem.description = %Q{}
     gem.email = "nc@appspark.us"
     gem.homepage = "http://github.com/nc/freeman"
     gem.authors = ["Namit Chadha"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_dependency 'bundler'
+    gem.add_dependency 'httparty'
+    gem.add_dependency 'yajl-ruby'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
